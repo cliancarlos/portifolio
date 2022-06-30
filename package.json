@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install",
-    "pre-commit": "next lint --fix && git add ."
+    "prepare": "husky install"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.2.1",
