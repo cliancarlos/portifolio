@@ -1,4 +1,8 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-yarn lint --fix && git add .
+echo '✅ Initializing ESlint fix 🔍'
+yarn lint --fix
+
+echo '✅ Add changes in commit'
+git add .
