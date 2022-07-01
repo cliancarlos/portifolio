@@ -7,6 +7,6 @@ import {
 
 describe("Alert.cy.js", () => {
   it("playground", () => {
-    // cy.mount()
+    cy.mount(<Alert />);
   });
 });
