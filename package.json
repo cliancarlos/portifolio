@@ -10,6 +10,7 @@
     "prepare": "husky install",
     "cypress": "cypress open",
     "cypress:headless": "cypress run",
+    "cy:push-test": "cypress run --component --e2e --headless --record=false ",
     "e2e": "start-server-and-test start http://localhost:1234 cypress",
     "e2e:headless": "start-server-and-test start http://localhost:1234 cypress:headless"
   },
@@ -33,7 +34,6 @@
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "husky": "^8.0.0",
-    "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "start-server-and-test": "^1.14.0"
   }
