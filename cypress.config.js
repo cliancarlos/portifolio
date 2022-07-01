@@ -1,6 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  videoRecording: false,
   component: {
     devServer: {
       framework: "next",
