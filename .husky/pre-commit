@@ -5,4 +5,4 @@ echo '✅ Initializing ESlint fix 🔍'
 yarn lint --fix
 
 echo '✅ Add changes in commit'
-git add .
+git add . && git commit -a 
