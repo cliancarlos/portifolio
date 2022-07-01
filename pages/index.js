@@ -8,12 +8,12 @@ import {
 export default function Home() {
   return (
     <>
-      <Alert status="error">
+      <Alert status="success">
         <AlertIcon />
-        <AlertTitle>Your browser is outdated!</AlertTitle>
-        <AlertDescription>
-          Your Chakra experience may be degraded.
-        </AlertDescription>
+        <AlertTitle>
+          This is updated! Good, i don't init in Dev Mode =|
+        </AlertTitle>
+        <AlertDescription>Ok, all right!</AlertDescription>
       </Alert>
     </>
   );
